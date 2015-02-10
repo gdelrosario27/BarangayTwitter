@@ -1,0 +1,21 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/home/kurosaki/railsapp/Rails-4-Twitter-Clone/spec/support/utilities.rb": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1423564253
+  }
+}

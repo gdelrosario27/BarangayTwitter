@@ -1,0 +1,247 @@
+2015-02-10 18:46:16[WARN] user: kurosaki
+http://localhost:3000/tweets
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :include => [:user]
+N+1 Query method call stack
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___3652434747916123644_69899095898160'
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___3543889364656604668_69899093413200'
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim__576472465081496360_69899100762520'
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/controllers/tweets_controller.rb:9:in `index'
+2015-02-10 18:46:16[WARN] user: kurosaki
+http://localhost:3000/tweets
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :include => [:user]
+N+1 Query method call stack
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___3652434747916123644_69899095898160'
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___3543889364656604668_69899093413200'
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim__576472465081496360_69899100762520'
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/controllers/tweets_controller.rb:9:in `index'
+2015-02-10 18:49:54[WARN] user: kurosaki
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :include => [:user]
+N+1 Query method call stack
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___3652434747916123644_69899225019960'
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___3543889364656604668_69899092011680'
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim__576472465081496360_69899198904700'
+2015-02-10 18:50:54[WARN] user: kurosaki
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :include => [:user]
+N+1 Query method call stack
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___3652434747916123644_69899095898160'
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___3543889364656604668_69899093413200'
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim__576472465081496360_69899100762520'
+2015-02-10 18:54:14[WARN] user: kurosaki
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :include => [:user]
+N+1 Query method call stack
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___3652434747916123644_69899095898160'
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___3543889364656604668_69899093413200'
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim__576472465081496360_69899100762520'
+2015-02-10 18:54:18[WARN] user: kurosaki
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :include => [:user]
+N+1 Query method call stack
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___3652434747916123644_69899095898160'
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___3543889364656604668_69899093413200'
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim__576472465081496360_69899100762520'
+2015-02-10 18:54:22[WARN] user: kurosaki
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :include => [:user]
+N+1 Query method call stack
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___3652434747916123644_69899225019960'
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___3543889364656604668_69899092011680'
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim__576472465081496360_69899198904700'
+2015-02-10 18:54:36[WARN] user: kurosaki
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :include => [:user]
+N+1 Query method call stack
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___3652434747916123644_69899225019960'
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___3543889364656604668_69899092011680'
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim__576472465081496360_69899198904700'
+2015-02-10 18:54:59[WARN] user: kurosaki
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :include => [:user]
+N+1 Query method call stack
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___3652434747916123644_69899095898160'
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___3543889364656604668_69899093413200'
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim__576472465081496360_69899100762520'
+2015-02-10 19:00:40[WARN] user: kurosaki
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :include => [:user]
+N+1 Query method call stack
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___3652434747916123644_69899095898160'
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___3543889364656604668_69899093413200'
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim__576472465081496360_69899100762520'
+2015-02-10 19:05:50[WARN] user: kurosaki
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :include => [:user]
+N+1 Query method call stack
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___3652434747916123644_69899225019960'
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___3543889364656604668_69899092011680'
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim__576472465081496360_69899198904700'
+2015-02-10 19:06:19[WARN] user: kurosaki
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :include => [:user]
+N+1 Query method call stack
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___3652434747916123644_69899095898160'
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___3543889364656604668_69899093413200'
+  /home/kurosaki/railsapp/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim__576472465081496360_69899100762520'
+2015-02-10 19:17:39[WARN] user: kurosaki
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :include => [:user]
+N+1 Query method call stack
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___2884913529691790558_70031006140380'
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___4064666558851754304_70030976895240'
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim__287695676082985593_70031004724340'
+2015-02-10 19:18:03[WARN] user: kurosaki
+http://localhost:3000/tweets
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :include => [:user]
+N+1 Query method call stack
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___2884913529691790558_70030861512980'
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___4064666558851754304_70030860749960'
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim__287695676082985593_70030866103580'
+  /home/kurosaki/railsapp/TwitterBarangay/app/controllers/tweets_controller.rb:9:in `index'
+2015-02-10 19:18:11[WARN] user: kurosaki
+http://localhost:3000/tweets
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :include => [:user]
+N+1 Query method call stack
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___2884913529691790558_70030861512980'
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___4064666558851754304_70030860749960'
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim__287695676082985593_70030866103580'
+  /home/kurosaki/railsapp/TwitterBarangay/app/controllers/tweets_controller.rb:9:in `index'
+2015-02-10 19:19:52[WARN] user: kurosaki
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :include => [:user]
+N+1 Query method call stack
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___2884913529691790558_70030861512980'
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___4064666558851754304_70030860749960'
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim__287695676082985593_70030866103580'
+2015-02-10 19:20:07[WARN] user: kurosaki
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :include => [:user]
+N+1 Query method call stack
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___2884913529691790558_70030861512980'
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___4064666558851754304_70030860749960'
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim__287695676082985593_70030866103580'
+2015-02-10 19:20:15[WARN] user: kurosaki
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :include => [:user]
+N+1 Query method call stack
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___2884913529691790558_70031006140380'
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___4064666558851754304_70030976895240'
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim__287695676082985593_70031004724340'
+2015-02-10 19:20:36[WARN] user: kurosaki
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :include => [:user]
+N+1 Query method call stack
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___2884913529691790558_70031006140380'
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___4064666558851754304_70030976895240'
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim__287695676082985593_70031004724340'
+2015-02-10 19:21:37[WARN] user: kurosaki
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :include => [:user]
+N+1 Query method call stack
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___2884913529691790558_70031006140380'
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___4064666558851754304_70030976895240'
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim__287695676082985593_70031004724340'
+2015-02-10 19:21:47[WARN] user: kurosaki
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :include => [:user]
+N+1 Query method call stack
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___2884913529691790558_70030861512980'
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___4064666558851754304_70030860749960'
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim__287695676082985593_70030866103580'
+2015-02-10 19:21:49[WARN] user: kurosaki
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :include => [:user]
+N+1 Query method call stack
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___2884913529691790558_70030861512980'
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___4064666558851754304_70030860749960'
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim__287695676082985593_70030866103580'
+2015-02-10 19:21:57[WARN] user: kurosaki
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :include => [:user]
+N+1 Query method call stack
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___2884913529691790558_70031006140380'
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___4064666558851754304_70030976895240'
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim__287695676082985593_70031004724340'
+2015-02-10 19:21:59[WARN] user: kurosaki
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :include => [:user]
+N+1 Query method call stack
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___2884913529691790558_70031006140380'
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___4064666558851754304_70030976895240'
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim__287695676082985593_70031004724340'
+2015-02-10 19:24:33[WARN] user: kurosaki
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :include => [:user]
+N+1 Query method call stack
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___2884913529691790558_70031006140380'
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___4064666558851754304_70030976895240'
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim__287695676082985593_70031004724340'
+2015-02-10 19:24:57[WARN] user: kurosaki
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :include => [:user]
+N+1 Query method call stack
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___2884913529691790558_70031006140380'
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___4064666558851754304_70030976895240'
+  /home/kurosaki/railsapp/TwitterBarangay/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim__287695676082985593_70031004724340'
+2015-02-10 19:55:12[WARN] user: kurosaki
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :include => [:user]
+N+1 Query method call stack
+  /home/kurosaki/railsapp/BarangayTwitter/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___162367072780930952_70265445196380'
+  /home/kurosaki/railsapp/BarangayTwitter/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim__3310703294590157557_70265436511000'
+  /home/kurosaki/railsapp/BarangayTwitter/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim___356103863028630930_70265439050560'
